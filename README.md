@@ -2,4 +2,4 @@
 Redis相关的技术和资料整理；与Redis相关的实例工程demo.
 
 ## SpringBootRedis
-SpringBoot中对Redis的基本配置和常用工具类。
+SpringBoot中对Redis的基本配置和常用工具类，Java对Redis服务的操作是通过RedisTemplate方法实现的，RedisTemplate是Spring对JRedis的封装(而Jedis的实现是官方推荐的面向Java的操作Redis的客户端，具体不同可以参考Wiki中的相关资料)。
